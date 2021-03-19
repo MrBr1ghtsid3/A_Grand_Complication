@@ -25,14 +25,22 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px;
+  padding: 100px 100px 0px 100px;
   margin-top: 60px;
-  height: 100vh;
 }
 
 section.home {
   flex-direction: row;
   margin-top: 0;
+}
+
+.book_title {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+  font-size: 2rem;
+  font-weight: 700;
+  z-index: 20;
 }
 
 /* TOGGLE */
@@ -57,7 +65,7 @@ section.home {
   background-repeat: no-repeat;
 }
 
-/* NAVIGATION */
+/* NAV */
 .nav {
   position: fixed;
   top: 0;
@@ -123,6 +131,12 @@ section.home {
   position: relative;
   z-index: 10;
   max-width: 600px;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 15px 30px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .cover {
@@ -130,6 +144,14 @@ section.home {
   bottom: 0;
   right: 0;
   height: 110%;
+}
+
+footer {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  text-align: end;
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

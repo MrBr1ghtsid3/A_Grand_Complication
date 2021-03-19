@@ -42,8 +42,7 @@ section.home {
   right: 0;
   width: 60px;
   height: 60px;
-  background-image: url(imgs/close.png);
-  background-color: #f60f20;
+  background-image: url(../imgs/menu.png);
   background-size: 30px;
   background-position: center;
   background-repeat: no-repeat;
@@ -52,8 +51,7 @@ section.home {
 }
 
 .toggle.active {
-  background-image: url(imgs/close.png);
-  background-color: #f60f20;
+  background-image: url(../imgs/close.png);
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
@@ -95,7 +93,29 @@ section.home {
 }
 
 .nav ul li a:hover {
-  color: black;
+  color: red;
+}
+
+.nav .social-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav .social-bar a {
+  display: inline-block;
+  transform: scale(0.5);
+}
+
+.nav .email-img {
+  position: absolute;
+  bottom: 20px;
+  transform: scale(0.5);
 }
 
 /* HOME */

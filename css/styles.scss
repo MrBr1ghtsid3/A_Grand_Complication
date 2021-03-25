@@ -29,7 +29,6 @@ section {
   align-items: center;
   padding: 100px 100px 0px 100px;
   margin-top: 60px;
-  // height: 100vh;
 }
 
 section.home {
@@ -107,7 +106,7 @@ section.home {
 
 .nav ul li a:hover {
   color: red;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-shadow: 0px 15px 10px -15px rgba(0,0,0,0.24);
   border-radius: 15px;
 }
 
@@ -143,11 +142,13 @@ section.home {
   border: 2px solid #f44336;
   border-radius: 15px;
   padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
+  position: relative;
+  top: 300px;
 }
 
 .disabled {
@@ -156,6 +157,7 @@ section.home {
 }
 
 /* HOME */
+
 .content {
   position: relative;
   top: 250px;

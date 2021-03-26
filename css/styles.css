@@ -43,7 +43,6 @@ section.home {
   z-index: 20;
 }
 
-/* TOGGLE */
 .toggle {
   position: fixed;
   top: 0;
@@ -65,7 +64,6 @@ section.home {
   background-repeat: no-repeat;
 }
 
-/* NAV */
 .nav {
   position: fixed;
   top: 0;
@@ -153,15 +151,14 @@ section.home {
   cursor: not-allowed;
 }
 
-/* HOME */
 .content {
   position: relative;
   font-family: "Lovers Quarrel", cursive;
   top: 250px;
-  left: 300px;
+  left: 550px;
   padding: 10px;
   z-index: 10;
-  max-width: 850px;
+  max-width: 950px;
   background: rgba(144, 196, 255, 0.45);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(4px);
@@ -177,12 +174,29 @@ section.home {
   height: 110%;
 }
 
-footer {
-  display: inline-block;
+.footer p {
+  font-size: 15px;
+  margin: 100px 0 0 0;
+  padding-top: 100px;
   position: fixed;
   bottom: 0;
-  text-align: start;
   width: 100%;
+}
+
+@media only screen and (max-width: 1920px) {
+  section .cover {
+    object-fit: cover;
+  }
+
+  .content {
+    left: 150px;
+    top: 100px;
+  }
+
+  .button {
+    top: 130px;
+    left: 200px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

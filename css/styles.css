@@ -9,6 +9,7 @@ html,
 body {
   font-family: "Cinzel Decorative", cursive;
   color: #111;
+  height: 100%;
 }
 
 h1 {
@@ -34,7 +35,7 @@ section.home {
   margin-top: 0;
 }
 
-.book_title {
+.book {
   position: absolute;
   top: 30px;
   left: 100px;
@@ -199,6 +200,14 @@ section.home {
   .button {
     top: 130px;
     left: 200px;
+  }
+
+  .footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
   }
 }
 

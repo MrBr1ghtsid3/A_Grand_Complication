@@ -18,14 +18,16 @@ h1 {
 }
 
 p {
+  font-family: "Cinzel Decorative", cursive;
   margin: 20px 0 10px;
-  font-size: 2.5rem;
+  font-size: 1.2rem;
   text-align: left;
 }
 
 section {
   display: flex;
   flex-direction: column;
+  height: 100vh;
   padding: 100px 100px 0px 100px;
   margin-top: 60px;
 }

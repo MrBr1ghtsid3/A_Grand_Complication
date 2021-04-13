@@ -23,7 +23,7 @@ let currentScrollPosTop = window.pageYOffset;
   if (prevScrollPosTop > currentScrollPosTop) {
     document.getElementById("footer").style.bottom = "-1100px";
   } else {
-    document.getElementById("footer").style.bottom = "0px";
+    document.getElementById("footer").style.bottom = "0";
   }
   prevScrollPosTop = currentScrollPosTop;
 };

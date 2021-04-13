@@ -9,6 +9,7 @@ html,
 body {
   font-family: "Cinzel Decorative", cursive;
   color: #111;
+  height: 1450px;
 }
 
 h1 {
@@ -177,8 +178,9 @@ section.home {
 
 .btn-about {
   text-decoration: none;
+  color: #111;
   font-family: "Cinzel Decorative", cursive;
-  border: 2px solid rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(252, 0, 0, 0.37);
   border-radius: 7px;
   padding: 10px 26px;
   font-size: 16px;
@@ -189,6 +191,7 @@ section.home {
 }
 
 .btn-about:hover {
+  border: 1px solid rgba(10, 1, 1, 0.37);
   color: red;
   transform: scale(0.98);
 }

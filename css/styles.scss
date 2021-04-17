@@ -12,7 +12,7 @@ html,
 body {
   font-family: 'Cinzel Decorative', cursive;
   color: #111;
-  height: 1700px;
+  height: 1600px;
   overflow-y: scroll;
 }
 
@@ -25,11 +25,6 @@ h1 {
   font-size: 3.5rem;
   padding-left: 15px;
   padding-bottom: 20px;
-}
-
-p {
-  font-size: 2.2rem;
-  text-align: left;
 }
 
 section {
@@ -171,6 +166,7 @@ section.home {
 .content {
   position: relative;
   font-family: 'Lovers Quarrel', cursive;
+  font-size: 2.1rem;
   top: 250px;
   left: 450px;
   padding: 15px;
@@ -220,5 +216,5 @@ section.home {
 #footer p {
   font-size: 15px;
   position: absolute;
-  top: 1700px;
+  top: 1600px;
 }

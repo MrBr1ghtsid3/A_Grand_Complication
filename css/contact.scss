@@ -1,32 +1,57 @@
 /* CONTACT */
 
-.title {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,html {
+  height: 1200px;
+}
+
+.info {
+    font-family: 'Lovers Quarrel', cursive;
+    font-size: 3rem;
     position: relative;
     top: 250px;
     left: 350px;
+    width: 60%;
 }
 
-h1 {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 1.5rem;
-    width: 65%;
+p.directions {
+  font-size: 1.2rem;
+  width: auto;
+  text-align: center;
+  padding-top: 25px;
+  text-decoration: underline;
+  letter-spacing: 0.02rem;
 }
 
 .contact {
     position: relative;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
   }
-  
+
+  .location {
+    position: relative;
+    padding: 30px 20px 0px;
+    background: rgba(239, 248, 255, 0.45);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  }
+
+
   .contact-form {
     position: relative;
     padding: 30px 20px 10px;
-    width: calc(100% - 600px);
+    width: calc(100% - 800px);
     background: rgba(239, 248, 255, 0.45);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(4px);
@@ -60,52 +85,32 @@ p {
     border: 1px solid rgba(0, 0, 0, 0.2);
     color: #111;
     background: transparent;
-    width: 50%;
+    width: 100%;
     padding: 10px;
     outline: none;
     font-size: 16px;
     font-weight: 300;
     margin: 10px 0;
     resize: none;
+    font-family: 'Cinzel Decorative', cursive;
   }
   
+
   .contact-form .row textarea {
-    height: 150px;
+    height: 350px;
+    font: sans;
   }
   
   .contact-form .row input[type='submit'] {
-    background-color: var(--secondary-color);
-    color: #fff;
-    margin: 0;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-weight: 300;
-    border: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    color: red;
+    font-family: 'Cinzel Decorative', cursive;
+    border-radius: 7px;
     cursor: pointer;
+    font-size: 16px;
   }
-  
-  .contact-info {
-    width: 350px;
-    background: #f9f9f9;
-    padding: 60px 40px 20px;
-  }
-  
-  .contact-info .info-box {
-    display: flex;
-    align-items: flex-start;
-    margin-bottom: 40px;
-  }
-  
-  .contact-info .info-box .contact-icon {
-    width: 20px;
-    margin-right: 40px;
-  }
-  
-  .contact-info .info-box .details h4 {
-    color: var(--secondary-color);
-  }
-  
-  .contact-info .info-box .details p,
-  .contact-info .info-box .details a {
-    color: #111;
+
+  .contact-form .row input[type='submit']:hover {
+    border: 1px solid rgba(10, 1, 1, 0.37);
+    transform: scale(0.95);
   }

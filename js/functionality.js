@@ -27,3 +27,14 @@ let currentScrollPosTop = window.pageYOffset;
   }
   prevScrollPosTop = currentScrollPosTop;
 };
+
+// FAQ sections toggle on/off
+
+const items = document.querySelectorAll(".accordion a");
+ 
+function toggleAccordion(){
+  this.classList.toggle('active');
+  this.nextElementSibling.classList.toggle('active');
+}
+ 
+items.forEach(item => item.addEventListener('click', toggleAccordion));

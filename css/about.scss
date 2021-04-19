@@ -1,23 +1,11 @@
-*, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
-}
-html {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 100vh;
+#footer {
+    top: 1100px !important;
 }
 
 .container {
+position: relative;
+top: 250px;
+  left: 350px;
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
@@ -65,7 +53,6 @@ h3 {
 }
 
 .accordion a::after {
-  font-family: 'Ionicons';
   content: '\f218';
   position: absolute;
   float: right;

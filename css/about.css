@@ -93,6 +93,7 @@ h3 {
   top: 0;
   left: 0;
   opacity: 1;
+  margin: 10px 0;
   padding: 1rem;
   max-height: 100%;
   -webkit-transition: all 0.35s ease 0.15s;

@@ -1,8 +1,4 @@
 @charset "UTF-8";
-#footer {
-  top: 1100px !important;
-}
-
 .container {
   position: relative;
   top: 250px;
@@ -10,6 +6,10 @@
   margin: 0 auto;
   padding: 4rem;
   width: 48rem;
+}
+
+h2 {
+  padding-bottom: 30px;
 }
 
 h3 {
@@ -44,17 +44,13 @@ h3 {
   color: #ff5353;
 }
 
-.accordion a:hover::after {
-  border: 1px solid #ff5353;
-}
-
 .accordion a.active {
   color: #ff5353;
   border-bottom: 1px solid #ff5353;
 }
 
 .accordion a::after {
-  content: "";
+  content: "ᐁ";
   position: absolute;
   float: right;
   right: 1rem;
@@ -71,10 +67,9 @@ h3 {
 }
 
 .accordion a.active::after {
-  font-family: "Ionicons";
-  content: "";
+  content: "¿";
   color: #ff5353;
-  border: 1px solid #ff5353;
+  border: 1px solid #7288a2;
 }
 
 .accordion .content {
@@ -90,11 +85,13 @@ h3 {
 }
 
 .accordion .content p {
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 2.3rem;
+  margin: 0;
 }
 
 .accordion .content.active {
+  top: 0;
+  left: 0;
   opacity: 1;
   padding: 1rem;
   max-height: 100%;

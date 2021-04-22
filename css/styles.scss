@@ -82,7 +82,6 @@ section.home {
 
 .nav {
   position: fixed;
-  top: 0;
   left: 100%;
   width: 100%;
   height: 100%;
@@ -123,9 +122,8 @@ section.home {
 .nav .socialm {
   position: absolute;
   top: 0;
-  right: 0;
   width: 60px;
-  height: 100%;
+  height: 145%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,4 +225,79 @@ section.home {
   position: absolute;
   top: 1600px;
   left: 5px;
+}
+
+// Responsive
+
+@media (max-width: 1068px) {
+
+  .cover {
+    display: none;
+  }
+
+  .book {
+    top: 15px;
+    left: 40px;
+    font-size: 1.5rem;
+  }
+
+  .content {
+    position: relative;
+    top: 200px;
+    left: 160px;
+  }
+
+  .btn-about {
+    position: relative;
+    left: 255px;
+  }
+
+  .navigation ul li a {
+    font-size: 2rem;
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .info {
+    left: 150px;
+    width: 75%;
+  }
+
+  .contact-form {
+    position: relative;
+    left: 145px;
+    width: 75%;
+    padding: 30px 30px 20px;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  .contact-form .input50,
+  .contact-form .input100 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 30px 20px;
+  }
+}
+
+.location {
+  display: none;
+}
+
+.container {
+  left: 150px !important;
+}
+
+@media (max-width: 768px) {
+
+  
 }
